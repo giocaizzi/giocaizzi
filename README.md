@@ -1,20 +1,16 @@
-### Hi there 👋
+# Hi there 👋
 
 Environmental engineer working @AECOM.
 
 
-[<img align="left" alt="medium" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />](giocaizzi@gmail.com)
-<!--
-**giocaizzi/giocaizzi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Languages: 
+<img align="center" alt="medium" src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"/> <img align="center" alt="medium" src="https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white"/> <img align="center" alt="medium" src="https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white"/>
 
-Here are some ideas to get you started:
+### Cloud:
+<img align="center" alt="medium" src="https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white"/> 
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### GIS:
+<img align="center" alt="medium" src="https://img.shields.io/badge/qgis-3.20_Odense-93b023?&style=for-the-badge&logo=qgis&logoColor=white"/> <img src="https://www.pngkit.com/png/full/275-2750749_esri-arcgis-logo-png.png" align="center" alt="drawing" width="100"/>
+
+### Contact:
+[<img align="center" alt="medium" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />](mailto:giocaizzi@gmail.com) [<img align="center" alt="medium" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>](https://www.linkedin.com/in/giorgio-caizzi/)
