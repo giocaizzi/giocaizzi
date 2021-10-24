@@ -2,7 +2,12 @@
 
 I am Giorgio Caizzi, environmental engineer  :seedling:  working @ [AECOM](https://aecom.com/) in Milan, Italy.
 
-Enthusiast about spatial data analysis and GIS.  🌍
+Working for a sustainable future.
+
+* Environmental resources management and optimization.
+* Spatial data analysis and GIS.  🌍
+
+I go crazy for sports. During the week, I like to go for a run 🏃‍♂️ or a swim 🏊‍♂️. Over the weekends, I like to go surfing 🌊, skiing ⛷️, cycling 🚴 and develop my own projects 💡.
 
 ### Languages: 
 <img align="center" alt="medium" src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"/> <img align="center" alt="medium" src="https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white"/> <img align="center" alt="medium" src="https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white"/>
