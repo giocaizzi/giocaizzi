@@ -17,5 +17,5 @@ Working for a sustainable future.
 <img align="center" alt="medium" src="https://img.shields.io/badge/qgis-3.20_Odense-93b023?&style=for-the-badge&logo=qgis&logoColor=white"/> <img src="https://www.pngkit.com/png/full/275-2750749_esri-arcgis-logo-png.png" align="center" alt="drawing" width="100"/>
 
 ### Contact:
-[<img align="center" alt="medium" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />](mailto:giocaizzi@gmail.com) [<img align="center" alt="medium" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>](https://www.linkedin.com/in/giorgio-caizzi/) [<img align="center" alt="medium" src="https://img.shields.io/badge/Link to-CV-<brightgreen>"/>](https://github.com/giocaizzi/CV/blob/main/CV.pdf)
+[<img align="center" alt="medium" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />](mailto:giocaizzi@gmail.com) [<img align="center" alt="medium" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>](https://www.linkedin.com/in/giorgio-caizzi/) [<img align="center" alt="medium" src="https://img.shields.io/badge/Link to-CV-<brightgreen>?style=for-the-badge&"/>](https://github.com/giocaizzi/CV/blob/main/CV.pdf)
 
