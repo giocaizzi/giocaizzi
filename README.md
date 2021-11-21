@@ -2,8 +2,6 @@
 
 I am Giorgio Caizzi, environmental engineer  :seedling:  working @ [AECOM](https://aecom.com/) in Milan, Italy.
 
-Working for a sustainable future.
-
 * Environmental resources management and optimization.
 * Spatial data analysis and GIS.  🌍
 
