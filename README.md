@@ -16,7 +16,7 @@ I am Giorgio Caizzi, environmental engineer  :seedling:  working @ [AECOM](https
 <img align="center" alt="medium" src="https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white"/> <img align="center" alt="medium" src="https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white"/>
 
 ### Cloud:
-<img align="center" alt="medium" src="https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white"/> <img align="center" alt="medium" src="https://img.shields.io/badge/travisci-%232B2F33.svg?style=for-the-badge&logo=travis&logoColor=white"/> 
+<img align="center" alt="medium" src="https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white"/> <img align="center" alt="medium" src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white"/> 
 
 ### Contact:
 [<img align="center" alt="medium" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />](mailto:giocaizzi@gmail.com) [<img align="center" alt="medium" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>](https://www.linkedin.com/in/giorgio-caizzi/) [<img align="center" alt="medium" src="https://img.shields.io/badge/Link to-CV-<brightgreen>?style=for-the-badge&"/>](https://github.com/giocaizzi/CV/blob/main/CV.pdf)
