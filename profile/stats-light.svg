@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Giorgio Caizzi's GitHub Stats, Rank: A</title>
-        <desc id="descId">Total Stars Earned: 141, Total Commits  (last year) : 542, Total PRs: 196, Total Issues: 55, Contributed to (last year): 0</desc>
+        <desc id="descId">Total Stars Earned: 141, Total Commits  (last year) : 552, Total PRs: 197, Total Issues: 55, Contributed to (last year): 0</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 62.52741097160124;
+        stroke-dashoffset: 61.93834874508818;
       }
     }
   
@@ -177,7 +177,7 @@
         x="219.01"
         y="12.5"
         data-testid="commits"
-      >542</text>
+      >552</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
@@ -192,7 +192,7 @@
         x="219.01"
         y="12.5"
         data-testid="prs"
-      >196</text>
+      >197</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
