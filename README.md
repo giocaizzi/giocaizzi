@@ -13,7 +13,7 @@
 <br>
 <img src="https://img.shields.io/badge/-Cloud-232F3E?style=flat-square&logo=icloud&logoColor=white" alt="Cloud" />
 <img src="https://img.shields.io/badge/-CLI-000000?style=flat-square&logo=gnubash&logoColor=white" alt="CLI" />
-<img src="https://img.shields.io/badge/-Backend-1F2937?style=flat-square" alt="Backend" />
+<img src="https://img.shields.io/badge/-Backend-1F2937?style=flat-square&logo=serverless&logoColor=white" alt="Backend" />
 <img src="https://img.shields.io/badge/-Web-4285F4?style=flat-square&logo=googlechrome&logoColor=white" alt="Web" />
 <img src="https://img.shields.io/badge/-Native-000000?style=flat-square&logo=apple&logoColor=white" alt="Native" />
 <img src="https://img.shields.io/badge/-Claude-000000?style=flat-square&logo=anthropic&logoColor=white" alt="Claude" />
