@@ -40,7 +40,7 @@
 - 🤖 [**ralph-copilot**](https://github.com/giocaizzi/ralph-copilot) <img src="https://img.shields.io/github/stars/giocaizzi/ralph-copilot" alt="GitHub Repo stars" /> - Lightweight Copilot implementation of the autonomous Ralph Loop agent pattern
 - 🗺️ [**mplStrater**](https://github.com/giocaizzi/mplStrater) <img src="https://img.shields.io/github/stars/giocaizzi/mplStrater" alt="GitHub Repo stars" /> - Plot geologic stratigraphic columns on matplotlib figures
 - 📐 [**py3dinterpolations**](https://github.com/giocaizzi/py3dinterpolations) - Quick 3D spatial interpolation with Kriging and IDW
-- 💧 [**tuya-irrigation**](https://github.com/giocaizzi/tuya-irrigation) - Smart irrigation system with Tuya Cloud sensors and evidence-based plant care
+- 💧 [**greenhouse**](https://github.com/giocaizzi/greenhouse) - Smart irrigation system with Tuya Cloud sensors and evidence-based plant care
 - 🖥️ [**rp5-homeserver**](https://github.com/giocaizzi/rp5-homeserver) - Raspberry Pi 5 Docker Swarm-based home server
 - 💡 [**picow-ws2812**](https://github.com/giocaizzi/picow-ws2812) - MicroPython package to drive a WS2812B LED matrix
 
