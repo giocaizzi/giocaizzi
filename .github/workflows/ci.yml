@@ -1,0 +1,31 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  secrets:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+      - uses: gitleaks/gitleaks-action@v3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  # The required status check: gitleaks must pass, then lint + test.
+  check:
+    needs: [secrets]
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - if: needs.secrets.result != 'success'
+        run: echo "secrets job ${{ needs.secrets.result }}" && exit 1
+      - uses: actions/checkout@v6
+      - run: make check
