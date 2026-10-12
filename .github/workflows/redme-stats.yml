@@ -5,11 +5,16 @@ on:
     - cron: "0 3 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
 
       - name: Generate stats card (dark)
         uses: readme-tools/github-readme-stats-action@v1
@@ -43,10 +48,41 @@ jobs:
           path: profile/top-langs-light.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Commit cards
+      - name: Check for card changes
+        id: changes
+        run: |
+          if [ -z "$(git status --porcelain profile)" ]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      # main is ruleset-protected: open an auto-merging PR instead of pushing.
+      # The release-please App token (unlike GITHUB_TOKEN) triggers CI on the PR.
+      - name: Mint App token
+        if: steps.changes.outputs.changed == 'true'
+        uses: actions/create-github-app-token@v3
+        id: app-token
+        with:
+          app-id: ${{ secrets.RP_APP_ID }}
+          private-key: ${{ secrets.RP_APP_KEY }}
+          permission-contents: write
+          permission-pull-requests: write
+
+      - name: Open auto-merging PR
+        if: steps.changes.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+          BRANCH: bot/readme-cards
+          TITLE: "chore(readme): update stats cards"
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
+          git switch -C "$BRANCH"
           git add profile/*.svg
-          git commit -m "Update README cards" || exit 0
-          git push
+          git commit -m "Update README cards"
+          git push --force "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" "$BRANCH"
+          if [ -z "$(gh pr list --head "$BRANCH" --state open --json number --jq '.[].number')" ]; then
+            gh pr create --base main --head "$BRANCH" --title "$TITLE" --body "Daily README cards refresh by the \`Update README cards\` workflow."
+          fi
+          gh pr merge "$BRANCH" --auto --squash --delete-branch
