@@ -8,8 +8,8 @@
         role="img"
         aria-labelledby="descId"
       >
-        <title id="titleId">Giorgio Caizzi&#39;s GitHub Stats, Rank: A</title>
-        <desc id="descId">Total Stars Earned: 163, Total Commits  (last year) : 2866, Total PRs: 1406, Total Issues: 272, Contributed to (last year): 1</desc>
+        <title id="titleId">Giorgio Caizzi&#39;s GitHub Stats, Rank: A+</title>
+        <desc id="descId">Total Stars Earned: 163, Total Commits  (last year) : 2873, Total PRs: 1408, Total Issues: 272, Contributed to (last year): 1</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 31.683724390745283;
+        stroke-dashoffset: 30.149854069615422;
       }
     }
   
@@ -150,7 +150,7 @@
         <g class="rank-text">
           
         <text x="-5" y="3" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" data-testid="level-rank-icon">
-          A
+          A+
         </text>
       
         </g>
